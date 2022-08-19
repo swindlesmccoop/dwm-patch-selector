@@ -12,7 +12,7 @@ finalize() {
 	mv dwm-flexipatch-bak dwm-flexipatch
 	cd final-src
 	$MAKECOMMAND && $ROOTCOMMAND $MAKECOMMAND install
-	printf "\-\-\-\-\nDone\n\-\-\-\-\n"
+	printf -- "\033[1;32mDone!\n"
 }
 
 cd dwm-flexipatch
