@@ -1,3 +1,9 @@
 [submodule "src"]
 	path = src
 	url = https://github.com/bakkeby/dwm-flexipatch
+[submodule "dwm-flexipatch"]
+	path = dwm-flexipatch
+	url = https://github.com/bakkeby/dwm-flexipatch
+[submodule "flexipatch-finalizer"]
+	path = flexipatch-finalizer
+	url = https://github.com/bakkeby/flexipatch-finalizer
