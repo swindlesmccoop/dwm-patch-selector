@@ -4,6 +4,7 @@ command -v sudo > /dev/null && ROOTCOMMAND=sudo || ROOTCOMMAND=doas
 
 finalize() {
 	cd ..
+	mkdir -p final-src
 	cp -r dwm-flexipatch dwm-flexipatch-bak
 	cd flexipatch-finalizer
 	./flexipatch-finalizer.sh --run --directory ../dwm-flexipatch --output ../final-src
